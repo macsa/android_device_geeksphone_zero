@@ -167,6 +167,7 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full_base.mk)
 
+PRODUCT_LOCALES := mdpi
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := zero
 PRODUCT_DEVICE := zero
